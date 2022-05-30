@@ -1,12 +1,15 @@
 function solveEquation(a, b) {
+    let result = "";
     if(a == 0){
         if(b == 0){
-            document.write("Phương trình vô số nghiệm");
+            result = "Phương trình vô số nghiệm";
         } else {
-            document.write("Phương trình vô nghiệm");
+            result = "Phương trình vô nghiệm";
         }
     } else {
-        document.write(`Phương trình có nghiệm x =  ${-b/a}`);
+        result = `Phương trình có nghiệm x =  ${-b/a}`;
     }
+    return result;
 }
-solveEquation(5,8);
+let result = solveEquation(5,8);
+document.write(result)

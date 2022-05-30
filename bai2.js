@@ -1,7 +1,6 @@
 function indexNumber(arr, number) {
    for (let i = 0; i < arr.length; i++) {
        if(number == arr[i]){
-            document.write(`Mảng cho trước:${arr} <br>`)
             document.write(`Vị trí của ${number} trong mảng là ${i}`)
        }
    }
