@@ -16,5 +16,5 @@ function checkVowel(vowel){
     return false;
 }
 let stringVowel = prompt("Nhập chuỗi bất kì: ");
-let result = countVowelCharacters(stringVowel);
-document.write(`Chuỗi bạn nhập vào có ${result} kí tự nguyên âm.`)
+let result1 = countVowelCharacters(stringVowel);
+document.write(`Chuỗi bạn nhập vào có ${result1} kí tự nguyên âm.`)
